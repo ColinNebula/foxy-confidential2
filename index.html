@@ -18,22 +18,44 @@
                 <!----------List item elements------------>
                 <li>
                     <!----------Anchor element------------>
-                    <a href="#who-we-are">Who We Are</a>
+                    <a href="#home">Home</a>
                 </li>
 
                 <li>
-                    <a href="what-we-do">What We Do</a>
+                    <a href="#gallery">Gallery</a>
                 </li>
 
                 <li>
-                    <a href="about-us">About Us</a>
+                    <a href="#about-us">About Us</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!------------ Jumbotron --------------->
     <section>
+        <div>
+            <h3>Join Us</h3>
+            <p>Fill out this form and receive our news letter right in your inbox every month</p>
+            <!------------ Form Element --------------->
+            <form>
+                <label for="name">Enter Full Name</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email">Enter Your Email Address Here:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" />
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <p>
+                    <label for="checkbox">
+                        I acknowledge that I am 18 years of age or older!
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <button type="submit">
+                    Submit
+                </button>
 
+            </form>
+        </div>
     </section>
     <!------------ Who we are section --------------->
     <section>
@@ -49,10 +71,13 @@
     <section>
         About Us
     </section>
-
+</body>
     <!------------ Footer Section --------------->
     <footer>
         <h2>Foxy Confidential</h2>
+        <div>
+            <a href="./private-policy.html">Read Our Private Policy</a><br />
+            &copy; 2024 Foxy Confidential, Inc.
+        </div>
     </footer>
-    </body>
 </html>

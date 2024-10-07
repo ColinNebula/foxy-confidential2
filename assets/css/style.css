@@ -1,14 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/*-------------------- Body style Element --------------*/
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #79a2a9;
 }
 
-/*--------------------Header style Element--------------*/
+/*-------------------- Body style Element Ends --------------*/
+
+/*-------------------- Header style Element --------------*/
 header {
     padding: 20px 35px;
     background-color: #79a2a9;
@@ -41,3 +45,29 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/*-------------------- Header style Element Ends --------------*/
+
+/*-------------------- footer style Element --------------*/
+footer {
+    background: #79a2a9;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #0d2716;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #0d2716;
+}
+/*--------------------Footer style Element Ends --------------*/
