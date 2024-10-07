@@ -68,6 +68,36 @@ header nav ul li a {
     right: 140px;
 }
 
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #0d2716;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #0d2716;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #0d2716;
+    background-color:#1f48a0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
 /*-------------------- Hero style Element Ends --------------*/
 
 
