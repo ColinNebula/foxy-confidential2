@@ -10,8 +10,6 @@ body {
     color: #79a2a9;
 }
 
-/*-------------------- Body style Element Ends --------------*/
-
 /*-------------------- Header style Element --------------*/
 header {
     padding: 20px 35px;
@@ -46,6 +44,7 @@ header nav ul li a {
     font-size: 22px;
 }
 /*-------------------- Header style Element Ends --------------*/
+
 /*-------------------- Hero style Element --------------*/
 .hero {
     background-image: url("../images/hero-bg.png");
@@ -54,22 +53,7 @@ header nav ul li a {
     background-position: center;
     position: relative;
 }
-
-.hero-form {
-    background-color: #79a2a9;
-    padding: 20px;
-    width: 500px;
-    color:#0d2716;
-    position: absolute;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #0d2716;
-    bottom: 120px;
-    right: 140px;
-}
-
 /*-------------------- Hero style Element Ends --------------*/
-
 
 /*-------------------- footer style Element --------------*/
 footer {
@@ -98,4 +82,43 @@ footer a {
 
 section {
     padding: 60px;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
 }
