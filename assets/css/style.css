@@ -19,7 +19,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 35px;
-    background-color: #79a2a9;
+    background-color: #605a6d;
 }
 
 header h1 {
@@ -87,10 +87,10 @@ section {
     }
 
 .hero-form {
-    background-color: #79a2a9;
+    background-color: #605a6d;
     padding: 20px;
     width: 500px;
-    color:#0d2716;
+    color:#f3eded;
     border-style: solid;
     border-width: 3px;
     border-color: #0d2716;
@@ -147,7 +147,7 @@ section {
 
 /*-------------------- footer style Element --------------*/
 footer {
-    background: #79a2a9;
+    background: #4d4956;
     width: 100%;
     padding: 40px 35px;
 }
