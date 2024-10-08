@@ -6,12 +6,16 @@
 
 /*-------------------- Body style Element --------------*/
 body {
+    background-color: #121213;
     font-family: Helvetica, Arial, sans-serif;
-    color: #79a2a9;
+    color: #f3eded;
 }
 
 /*-------------------- Header style Element --------------*/
 header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 35px;
     background-color: #79a2a9;
 }
@@ -19,23 +23,25 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #0d2716;
+    color: #f3eded;
     margin: 0;
-    display: inline;
 }
 
 header a {
     text-decoration: none;
-    color:#0d2716; 
+    color:#f3eded; 
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
@@ -45,13 +51,38 @@ header nav ul li a {
 }
 /*-------------------- Header style Element Ends --------------*/
 
+section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 48px;
+    color: #79a2a9;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    display: inline-block;
+    border-color: 3px solid;
+}
+
+.primary-border {
+    border-color: #f3eded;
+}
+
+.secondary-border {
+    border-color:#f3eded;
+}
+
 /*-------------------- Hero style Element --------------*/
 .hero {
     background-image: url("../images/hero-bg.png");
-    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 /*-------------------- Hero style Element Ends --------------*/
 
@@ -80,11 +111,34 @@ footer a {
 }
 /*--------------------Footer style Element Ends --------------*/
 
+/*--------------------section style Element --------------*/
 section {
     padding: 60px;
     
 }
 
+.section-title {
+    font-size: 48px;
+    color: #f3eded;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    display: inline-block;
+    border-color: 3px solid;
+}
+
+.primary-border {
+    border-color: #f3eded;
+}
+
+.secondary-border {
+    border-color:#f3eded;
+}
+
+/*--------------------section style Element Ends --------------*/
+
+/*--------------------gallery style Element --------------*/
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +159,9 @@ section {
     height: auto;
     display: block;
 }
+/*--------------------gallery style Element Ends --------------*/
 
+/*--------------------media style Element Ends --------------*/
 .desc {
     padding: 15px;
     text-align: center;
@@ -122,3 +178,5 @@ section {
         width: 100%;
     }
 }
+
+/*--------------------media style Element Ends --------------*/
