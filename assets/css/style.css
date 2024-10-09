@@ -155,7 +155,7 @@ img {
 
 /*-------------------- footer style Element --------------*/
 footer {
-    background: #4d4956;
+    background: #3b3845;
     width: 100%;
     padding: 40px 35px;
 }
@@ -176,6 +176,21 @@ footer div {
 footer a {
     color: #0d2716;
 }
+
+#mail-icons img {
+    width: 4.2em;
+    height: 4.2em;
+    background-image: none;
+    display: inline-block;
+    vertical-align: relative;
+    border: 0;
+}
+
+#mail-icons {
+   height: 100px;
+   padding-top: 10px;
+}
+
 /*--------------------Footer style Element Ends --------------*/
 
 .intro p {

@@ -103,14 +103,14 @@ section {
 
 /*-------------------- footer style Element --------------*/
 footer {
-    background: #79a2a9;
+    background: #4d4956;
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2 {
     display: inline;
-    color: #0d2716;
+    color: #f3eded;
     font-size: 30px;
     margin: 0;
 }
