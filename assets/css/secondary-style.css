@@ -108,6 +108,7 @@ footer {
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px;
     background-color: #333;
@@ -205,6 +206,15 @@ section {
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #f3eded;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:#f3eded;
 }
 
 /*--------------------gallery style Element --------------*/
