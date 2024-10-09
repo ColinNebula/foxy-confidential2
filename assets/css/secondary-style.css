@@ -45,9 +45,9 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 /*-------------------- Header style Element Ends --------------*/
 
@@ -83,6 +83,21 @@ section {
     align-items: flex-start;
     background-size: cover;
     background-position: center;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #f3eded;
 }
 /*-------------------- Hero style Element Ends --------------*/
 
