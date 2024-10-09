@@ -182,11 +182,12 @@ footer a {
     height: 4.2em;
     background-image: none;
     display: inline-block;
-    vertical-align: relative;
+    vertical-align: middle;
     border: 0;
 }
 
 #mail-icons {
+    
    height: 100px;
    padding-top: 10px;
 }
