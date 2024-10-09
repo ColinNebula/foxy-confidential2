@@ -232,6 +232,34 @@ footer a {
     margin: 0 auto;
     text-align: center;
 }
+/*--------------------------------Border Line Color-----------------------*/
+.intro h2 {
+    font-size: 55px;
+    color: #f3eded;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:#f3eded;
+}
+
+.middle h2 {
+    font-size: 55px;
+    color: #f3eded;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:#f3eded;
+}
+
+.about h2 {
+    font-size: 55px;
+    color: #f3eded;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:#f3eded;
+}
+/*--------------------------------Border Line Color Ends -----------------------*/
 
 .middle p {
     line-height: 1.7;
