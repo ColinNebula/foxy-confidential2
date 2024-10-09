@@ -173,6 +173,21 @@ section {
     width: 100%;
     height: auto;
     display: block;
+    transition: transform 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+.gallery-item img:hover {
+    
+    box-shadow: 10px 10px 20px (0, 0, 0, 0.5);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1; }
+}
+.gallery-item  {
+    animation: fadeIn 2s;
 }
 /*--------------------gallery style Element Ends --------------*/
 
